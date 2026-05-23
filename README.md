@@ -1,5 +1,7 @@
 # pict-cruisecontrol
 
+> **[&#9654; Read the Pict-Cruisecontrol Documentation](https://stevenvelozo.github.io/pict-cruisecontrol/)** &mdash; interactive docs with the full API reference.
+
 ## Related Packages
 
 - [pict](https://github.com/stevenvelozo/pict) - MVC application framework
