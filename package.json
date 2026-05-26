@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/stevenvelozo/pict-cruisecontrol.git"
+        "url": "git+https://github.com/fable-retold/pict-cruisecontrol.git"
     },
     "author": "steven velozo <steven@velozo.com>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/stevenvelozo/pict-cruisecontrol/issues"
+        "url": "https://github.com/fable-retold/pict-cruisecontrol/issues"
     },
-    "homepage": "https://github.com/stevenvelozo/pict-cruisecontrol#readme",
+    "homepage": "https://github.com/fable-retold/pict-cruisecontrol#readme",
     "mocha": {
         "diff": true,
         "extension": [

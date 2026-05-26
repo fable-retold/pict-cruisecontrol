@@ -4,6 +4,6 @@
 
 - Read the full documentation for usage, configuration, and reference
 
-[GitHub](https://github.com/stevenvelozo/pict-cruisecontrol)
+[GitHub](https://github.com/fable-retold/pict-cruisecontrol)
 [Get Started](#pict-cruisecontrol)
 
