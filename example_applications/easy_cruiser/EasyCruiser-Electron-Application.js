@@ -148,6 +148,6 @@ electronApp.on('activate',
 	{
 		if (libBrowserWindow.getAllWindows().length === 0)
 		{
-			createWindow();
+			createBrowserWindow();
 		}
 	});

@@ -1,5 +1,5 @@
 {
-	"Generated": "2026-05-26T21:14:56.445Z",
+	"Generated": "2026-05-31T03:21:50.309Z",
 	"Mode": "module",
 	"GitHubOrg": "fable-retold",
 	"DefaultBranch": "master",
@@ -10,13 +10,66 @@
 		"Branch": "master",
 		"HasDocs": true,
 		"HasCover": true,
-		"Sidebar": [],
+		"Sidebar": [
+			{
+				"Title": "Getting Started",
+				"Children": [
+					{
+						"Title": "Overview",
+						"Path": "README.md"
+					},
+					{
+						"Title": "Quickstart",
+						"Path": "quickstart.md"
+					},
+					{
+						"Title": "Architecture",
+						"Path": "architecture.md"
+					}
+				]
+			},
+			{
+				"Title": "Examples",
+				"Children": [
+					{
+						"Title": "Easy Cruiser (Electron)",
+						"Path": "example-easy-cruiser.md"
+					}
+				]
+			},
+			{
+				"Title": "Related Modules",
+				"Children": [
+					{
+						"Title": "Pict",
+						"Path": "https://fable-retold.github.io/pict/README.md"
+					},
+					{
+						"Title": "Pict Application",
+						"Path": "https://fable-retold.github.io/pict-application/README.md"
+					},
+					{
+						"Title": "Pict View",
+						"Path": "https://fable-retold.github.io/pict-view/README.md"
+					},
+					{
+						"Title": "Fable",
+						"Path": "https://fable-retold.github.io/fable/README.md"
+					}
+				]
+			}
+		],
 		"DocFiles": [
 			".nojekyll",
+			"README.md",
 			"_brand.json",
 			"_cover.md",
+			"_sidebar.md",
 			"_version.json",
+			"architecture.md",
+			"example-easy-cruiser.md",
 			"index.html",
+			"quickstart.md",
 			"retold-catalog.json",
 			"retold-keyword-index.json"
 		]
