@@ -123,7 +123,7 @@ The source documents a subtlety: Electron's `did-finish-load` did not fire relia
 
 Standard Electron wiring: create the window when the app is ready, quit when all windows close, and re-create a window on `activate` (the macOS Dock-icon case).
 
-> **Known issue in the example:** the `activate` handler calls `createWindow()`, but the function defined in the file is named `createBrowserWindow()`. As written, the re-create-on-activate path would throw a `ReferenceError`. The primary startup path (`whenReady().then(createBrowserWindow)`) is correct.
+> On macOS, the `activate` handler re-creates the window via `createBrowserWindow()` when all windows have been closed (e.g. clicking the Dock icon).
 
 ## The In-Page Loader &mdash; `EasyCruiser-Electron-Browser-Injector.js`
 
